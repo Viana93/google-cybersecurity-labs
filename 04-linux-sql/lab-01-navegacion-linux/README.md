@@ -6,50 +6,93 @@
 
 ## Objetivo
 
-Utilizar la terminal de Linux para navegar por el sistema de archivos, identificar directorios y administrar archivos mediante comandos básicos.
+Aplicar comandos fundamentales de Linux para navegar por el sistema de archivos, crear directorios, administrar archivos y organizar evidencias utilizando la terminal.
 
 ## Escenario
 
-Como analista de ciberseguridad, recibes acceso a un servidor Linux para revisar archivos de configuración y registros del sistema. Antes de realizar cualquier análisis, debes localizar directorios, verificar la ubicación actual y listar el contenido disponible.
+Como analista de ciberseguridad, recibí acceso a un entorno Linux para crear una estructura de trabajo destinada al almacenamiento de evidencias digitales. Todo el procedimiento fue realizado desde la terminal Bash.
 
-## Comandos utilizados
+## Herramientas utilizadas
 
-| Comando | Función |
-|----------|---------|
-| `pwd` | Muestra el directorio actual. |
-| `ls` | Lista el contenido de un directorio. |
-| `ls -la` | Muestra archivos ocultos y permisos. |
-| `cd` | Cambia de directorio. |
-| `mkdir` | Crea un directorio. |
-| `touch` | Crea un archivo vacío. |
-| `cp` | Copia archivos. |
-| `mv` | Mueve o renombra archivos. |
-| `rm` | Elimina archivos. |
+- Linux
+- Terminal Bash
 
-## Procedimiento
+---
 
-1. Verificar la ubicación actual con `pwd`.
-2. Listar el contenido del directorio utilizando `ls -la`.
-3. Crear una carpeta llamada `evidencias`.
-4. Crear un archivo de prueba dentro de la carpeta.
-5. Renombrar el archivo y verificar el resultado.
+## Procedimiento y evidencia
 
-## Evidencia esperada
+### Paso 1. Verificación del entorno
+
+Se verificó el directorio de trabajo y se inspeccionó el contenido del sistema antes de iniciar el laboratorio.
+
+#### Comandos ejecutados
 
 ```bash
 pwd
 ls -la
+mkdir laboratorio_linux
+cd laboratorio_linux
+pwd
 mkdir evidencias
-cd evidencias
-touch reporte.txt
-mv reporte.txt evidencia.txt
+touch evidencias_01.txt
+touch evidencias_02.txt
 ls -la
 ```
 
+#### Evidencia
+
+<img width="980" height="797" alt="Captura de pantalla 2026-09-07 155749" src="https://github.com/user-attachments/assets/34169e9a-7374-4e94-8574-5aaa56540126" />
+
+
+---
+
+### Paso 2. Organización de evidencias
+
+Se movió un archivo al directorio de evidencias y posteriormente se creó una copia para simular la preservación de información durante una investigación.
+
+#### Comandos ejecutados
+
+```bash
+mv evidencias_01.txt evidencias/
+cp evidencias_02.txt evidencias/copia_evidencia.txt
+ls -R
+```
+
+#### Evidencia
+
+<img width="815" height="252" alt="Captura de pantalla 2026-09-07 160141" src="https://github.com/user-attachments/assets/5cc5870a-183f-4c57-a2cd-2b34f300058c" />
+
+
+---
+
+## Estructura obtenida
+
+```text
+laboratorio_linux
+├── evidencias
+│   ├── copia_evidencia.txt
+│   └── evidencias_01.txt
+└── evidencias_02.txt
+```
+
+---
+
 ## Análisis
 
-La navegación eficiente dentro de Linux permite localizar rápidamente archivos de configuración, registros y evidencias digitales. El uso de `ls -la` facilita identificar permisos, propietarios y archivos ocultos, información esencial durante actividades de análisis forense y administración de servidores.
+Durante el laboratorio se comprobó la importancia de la navegación y administración de archivos en Linux para organizar información de manera estructurada. La utilización de los comandos `mkdir`, `touch`, `mv`, `cp` y `ls -R` permitió crear un entorno de trabajo reproducible, organizar evidencias digitales y verificar la integridad de la estructura creada desde la terminal.
+
+---
+
+## Competencias desarrolladas
+
+- Navegación en Linux
+- Gestión de directorios y archivos
+- Bash básico
+- Organización de evidencias digitales
+- Documentación técnica
+
+---
 
 ## Conclusión
 
-Los comandos básicos de navegación constituyen la base del trabajo diario de un analista de ciberseguridad en entornos Linux y permiten administrar de forma segura la información del sistema.
+La administración de archivos desde la terminal constituye una habilidad esencial para analistas SOC y profesionales de ciberseguridad, ya que permite gestionar información y evidencias de forma eficiente en entornos Linux sin depender de interfaces gráficas.

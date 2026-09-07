@@ -6,44 +6,44 @@
 
 ## Objetivo
 
-Comprender las cinco funciones principales del NIST Cybersecurity Framework (CSF) y relacionarlas con controles básicos de seguridad dentro de una organización.
+Comprender las cinco funciones del Marco de Ciberseguridad del NIST y relacionarlas con controles básicos de seguridad utilizados en una organización.
 
 ## Escenario
 
-Una empresa de 80 empleados desea fortalecer su postura de ciberseguridad. Como analista junior, debes clasificar diferentes controles de seguridad según la función del NIST CSF a la que pertenecen.
+Una empresa de 80 colaboradores desea fortalecer su estrategia de ciberseguridad. Como analista de ciberseguridad junior, debes clasificar los siguientes controles de seguridad dentro de las funciones del NIST.
 
 ## Clasificación de controles
 
-| Control de seguridad | Función NIST |
-|----------------------|-------------|
-| Inventario de equipos | Identify |
-| Autenticación multifactor (MFA) | Protect |
-| Monitoreo de eventos de seguridad | Detect |
-| Plan de respuesta a incidentes | Respond |
-| Copias de seguridad y recuperación | Recover |
+| Control de seguridad | Función del NIST |
+|----------------------|------------------|
+| Inventario de activos tecnológicos | Identificar |
+| Autenticación multifactor (MFA) | Proteger |
+| Monitoreo de eventos y registros | Detectar |
+| Plan de respuesta a incidentes | Responder |
+| Copias de seguridad y restauración | Recuperar |
 
 ## Análisis
 
-### Identify (Identificar)
+### Identificar
 
-Permite conocer los activos, riesgos y recursos críticos de la organización.
+Permite conocer los activos, procesos y riesgos que deben protegerse dentro de la organización.
 
-### Protect (Proteger)
+### Proteger
 
-Implementa controles para reducir la probabilidad de un incidente.
+Implementa controles para reducir la probabilidad de que ocurra un incidente de seguridad.
 
-### Detect (Detectar)
+### Detectar
 
-Consiste en identificar actividades anómalas mediante monitoreo y registros.
+Consiste en monitorear la infraestructura para identificar actividades anómalas o eventos sospechosos.
 
-### Respond (Responder)
+### Responder
 
-Define las acciones para contener y gestionar un incidente de seguridad.
+Define las acciones necesarias para contener, analizar y gestionar un incidente de ciberseguridad.
 
-### Recover (Recuperar)
+### Recuperar
 
-Busca restaurar la operación normal y minimizar el impacto del incidente.
+Busca restablecer la operación normal mediante planes de continuidad y copias de seguridad.
 
 ## Conclusión
 
-El NIST CSF proporciona una metodología estructurada para gestionar la ciberseguridad. Comprender sus cinco funciones facilita la implementación de controles y mejora la capacidad de respuesta de una organización.
+El Marco de Ciberseguridad del NIST proporciona una metodología organizada para gestionar la seguridad de la información. Comprender sus cinco funciones facilita la implementación de controles y mejora la capacidad de respuesta frente a incidentes.

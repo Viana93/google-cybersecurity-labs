@@ -34,7 +34,7 @@ ls -l
 
 #### Evidencia
 
-![Permisos iniciales](01-permisos-iniciales.png)
+<img width="665" height="608" alt="01-permisos-iniciales png" src="https://github.com/user-attachments/assets/165d1267-d59e-41e8-9a0f-b3d98896880f" />
 
 ---
 
@@ -49,7 +49,7 @@ ls -l
 
 #### Evidencia
 
-![Permisos 600](02-permisos-600.png)
+<img width="653" height="546" alt="02-permisos-600 png" src="https://github.com/user-attachments/assets/f4475e82-6d45-4f14-897a-9d0356b0c5b3" />
 
 ---
 
@@ -65,7 +65,7 @@ ls -ld documentos
 
 #### Evidencia
 
-![Directorio protegido](03-directorio-protegido.png)
+<img width="727" height="711" alt="03-directorio-protegido" src="https://github.com/user-attachments/assets/cb7eb9a3-143e-46f5-9d77-8ebd8890569b" />
 
 ---
 

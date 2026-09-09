@@ -24,7 +24,7 @@ Una empresa de comercio electrónico cuenta con una base de datos de clientes, u
 
 ## Análisis
 
-Los riesgos con mayor prioridad son aquellos que combinan una alta probabilidad de ocurrencia con un impacto significativo sobre la operación o la información de la organización.
+Los riesgos con mayor prioridad son aquellos que combinan una alta probabilidad de recurrencia con un impacto significativo sobre la operación o la información de la organización.
 
 ## Controles recomendados
 
